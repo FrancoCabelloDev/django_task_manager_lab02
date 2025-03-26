@@ -1,43 +1,37 @@
-🔄 Django Workflow Applied
-This project follows the Django workflow as described in the presentation:
-Configuration of the environment
-Created virtual environment
-Installed Django
-Set up project structure
-Design of Data Model
-Created Task model with relevant fields
-Applied migrations to create database schema
-Creation of Views
-Implemented list, create, update, and delete views for tasks
-Definition of URLs
-Configured URL patterns to map to appropriate views
-Creation of Templates
-Built HTML templates for displaying task list and forms
-Form Handling
-Created a TaskForm using Django's ModelForm
-Business Logic Implementation
-Added filtering functionality
-Implemented CRUD operations
-Testing
-The server is ready for manual testing
-📈 Next Steps
-To further enhance your Task Manager:
-Add User Authentication
-Allow users to register and log in
-Associate tasks with specific users
-Add Task Categories
-Create a Category model
-Allow tasks to be assigned to categories
-Implement Task Search
-Add a search box to find tasks by keywords
-Add Due Date Reminders
-Email notifications for approaching deadlines
-Implement Task Comments
-Allow users to add comments to tasks
-📝 Conclusion
-You've now created a functional Task Manager application using Django, following the workflow concepts from the presentation. This demonstrates the practical application of Django's MVT (Model-View-Template) pattern and showcases how Django's components work together to create a complete web application.
+# 📝 Django Workflow Applied
 
-📚 References
-Django official documentation: https://docs.djangoproject.com/
-Django Forms documentation: https://docs.djangoproject.com/en/stable/topics/forms/
-Bootstrap documentation: https://getbootstrap.com/docs/5.3/
+Este proyecto sigue el flujo de trabajo de Django, implementando una aplicación de gestión de tareas. Abarca desde la configuración del entorno hasta la implementación de características avanzadas.
+
+## 🚀 Características Implementadas
+
+- **Configuración del entorno:** Creación de entorno virtual e instalación de Django.
+- **Estructura del proyecto:** Configuración del modelo de datos para tareas con campos relevantes.
+- **Migraciones:** Aplicación de migraciones para crear el esquema de base de datos.
+- **Vistas y CRUD:** Implementación de vistas para listar, crear, actualizar y eliminar tareas.
+- **Definición de URLs:** Configuración de patrones de URL para mapear las vistas.
+- **Templates:** Creación de plantillas HTML para la lista de tareas y formularios.
+- **Formularios:** Manejo de formularios usando Django's ModelForm.
+- **Lógica de negocio:** Implementación de filtrado de tareas.
+- **Pruebas:** Servidor listo para pruebas manuales.
+
+## 🔜 Próximos Pasos
+
+Para mejorar la aplicación, se pueden agregar las siguientes funcionalidades:
+
+- **Autenticación de Usuarios:** Permitir registro e inicio de sesión.
+- **Asociación de Tareas con Usuarios:** Relacionar tareas con usuarios específicos.
+- **Categorías:** Crear un modelo de categorías y asignarlas a tareas.
+- **Búsqueda de Tareas:** Agregar un cuadro de búsqueda por palabras clave.
+- **Recordatorios:** Implementar fechas de vencimiento para las tareas.
+- **Notificaciones por Email:** Alertas para tareas próximas a vencer.
+- **Comentarios:** Permitir que los usuarios comenten en las tareas.
+
+## 📌 Conclusión
+
+Con este proyecto, has creado una aplicación funcional de gestión de tareas en Django, aplicando el patrón **MVT (Model-View-Template)** y utilizando los principales componentes del framework.
+
+## 📚 Referencias
+
+- 📘 [Documentación oficial de Django](https://docs.djangoproject.com/)
+- 📄 [Django Forms](https://docs.djangoproject.com/en/stable/topics/forms/)
+- 🎨 [Bootstrap](https://getbootstrap.com/docs/5.3/)
